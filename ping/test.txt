@@ -1,0 +1,14 @@
+本机回环
+ping 127.0.0.1 4 4
+
+百度
+ping 36.152.44.132 4 4
+
+外网地址
+ping 8.8.8.8 4 4
+
+不可能接受地址
+ping 192.0.2.1 4 4
+
+gcc编译
+gcc main.c -o ping.exe -lws2_32 -liphlpapi
